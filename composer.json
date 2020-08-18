@@ -1,0 +1,23 @@
+{
+    "name": "ayza/website",
+    "description": "ayza website",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.0@dev",
+        "php": "^7.4",
+        "phpunit/phpunit": "^9.4@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ayza\\Website\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kübra KILIÇ",
+            "email": "57139092+kubrakilic-git@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
