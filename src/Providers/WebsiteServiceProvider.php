@@ -8,7 +8,7 @@ class WebsiteServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        dd('we are loading our package service provider.');
+        info('ayza/website bootstraped.');
     }
 
     public function register()
