@@ -10,6 +10,13 @@
             "Ayza\\Website\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ayza\\Website\\Providers\\WebsiteServiceProvider"
+            ]
+        }
+    },
     "license": "MIT",
     "authors": [
         {
